@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Machine Learning: Spring 2019: Yue Ning</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Yue Ning, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Yue Ning RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="./css/main.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Yue Ning">
+    <meta name="og:url" content="./research.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Yue Ning">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="./research.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container">
+            <a id="author-name" class="alignable pull-left">CS559: Machine Learning: Fundamentals and Applications </a>
+            <ul class="alignable pull-right navbar-ul">
+                <li class="alignable pull-right nav-list"><a class="cool-link" href=".">&#8594;home</a></li>
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+       <div class="container content">
+         <p></p>
+
+<h2>General Information</h2>
+
+<ul>
+  <li><strong>Time</strong>: Wednesday 6:30PM - 9:00PM, spring semester, 2019</li>
+  <li><strong>Location</strong>: Babbio Center 122</li>
+  <li><strong>Instructor</strong>: Yue Ning </li>
+  <li><strong>Office Hours</strong>: 2:00PM-4:00PM Wednesday </li>
+  <li><strong>Teaching assistant</strong>: Selcuk Karakas and Yujie Zhou</li>
+  <li><strong>Course details</strong>: We will be using <a href="">Canvas</a> for online discussion, announcements, and homework submission. You are encouraged to ask and answer questions on the forum as long as you do not give away solutions to homework problems. Participation in the online forum will count towards class participation.</li>
+</ul>
+
+
+
+
+<h2>What is this course about?</h2>
+
+In this course we will talk about the foundational principles that drive machine learning applications and practice implementing machine learning algorithms. Specific topics include: supervised learning, unsupervised learning, neural networks, and graphical models. The main goal of the course is to equip you with the tools to tackle new ML problems you might encounter in life.
+
+<h2>Prerequisites</h2>
+This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. <strong><u>You should have taken Math 222: Probability Theory (or equivalent)</u></strong>.
+
+<h2>Reading</h2>
+<ul>
+  <li> Bishop, Christopher M., 2006. <a href="http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf">Pattern Recognition and Machine Learning</a>. Springer-Verlag New York, Inc. A comprehensive reference for bayesian theory that we will cover. </li>
+  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016. <a href="https://www.deeplearningbook.org/">Deep Learning</a>, MIT Press. We will cover topics including basic neural networks, back propagation, and CNN.</li>
+  <li> Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome, 2008. <a href="https://web.stanford.edu/~hastie/Papers/ESLII.pdf">The Elements of Statistical Learning</a>. Second Edition, Springer New York Inc.</li>
+</ul>
+
+<h2>Coursework</h2>
+All assignments (homework problems and project milestones) must be submitted on Canvas by 6:30 PM. You have two (2) late days in total that can be distributed among the assignments (except the final project) without penalty.
+<ul>
+  <li><u>Homework (40%)</u>: There will be bi-weekly homework assignments with both written and programming parts. Each assignment is centered around an application and will also deepen your understanding of the theoretical concepts</li>
+    <li><u>Midterm Exam (15%)</u>: The midterm exam is to evaluate your understanding of the course so far. It will be an in-class written exam.</li>
+    <li><u>Final Exam (15%)</u>: The final exam is to evaluate your understanding of second part of the course. It will be an in-class written exam.</li>
+    <li><u>Project (20%)</u>: The final project provides an opportunity for you to use the tools from class to build something interesting of your choice. You need to make a video (3 mins) introducing your project and submit a report along with your code. </li>
+    <li><u>Participation (5%)</u>: Discussions on Canvas, attending classes, participating in classes.</li>
+  <li><u>Quizzes (5%)</u>: there will be 4-5 quick quizzes in class. </li>
+</ul>
+<h2>Schedule (tentative)</h2>
+<table>
+              <tr ALIGH=LEFT>
+                 <th VALIGN=TOP WIDTH=80px ALIGN=center>
+                Week
+                </th>
+              <th VALIGN=TOP WIDTH=100px ALIGN=left>
+                Date
+                </th>
+              <th VALIGN=TOP WIDTH=240px  ALIGN=left>
+               Topic
+              </th>
+               <th VALIGN=TOP WIDTH=140px ALIGN=left>
+                Reading
+                </th>
+                  <th VALIGN=TOP WIDTH=120px ALIGN=left>
+                Event
+                </th>
+            </tr>
+             
+              <tr ALIGH=LEFT>
+               <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                1
+                </td>
+               <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Jan. 23
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Introduction and Overview
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch1-2 PRML 2006<br>
+                [<a href="https://arxiv.org/abs/1606.03498">Salimans et al 2016</a>]<br>
+                [<a href="https://arxiv.org/abs/1605.05396">Reed et al 2016</a>]<br>
+                [<a href="https://www.cs.toronto.edu/~fritz/absps/RNN13.pdf">Graves et al 2013</a>]<br>
+                [<a href="https://ai.googleblog.com/2016/09/a-neural-network-for-machine.html">Google Brain 2016</a>]<br>
+                [<a href="https://arxiv.org/abs/1502.02766">Farfade et al 2015</a>]
+                </td>
+                <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                2
+                </td>
+            <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Jan. 30
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Linear Regression and Optimization
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch3 PRML 2006
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  hw1 <font color="blue">out</font>
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                3
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Feb. 6
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Linear Classification
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                 Ch4 PRML 2006<br>
+                Ch3 ESLII 2008
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                4
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Feb. 13
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Logistic Regression & PCA
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch4 PRML 2006<br>
+                [<a href="https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41159.pdf">McMahan et al 2013</a>]<br>
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  hw2 <font color="blue">out</font>, hw1 <font color="red">due</font>
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                5
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Feb. 20
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Support Vector Machines
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch7 PRML 2006<br>
+                [<a href="http://image.diku.dk/imagecanon/material/cortes_vapnik95.pdf">Cortes& Vapnik 1995</a>]
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                6
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Feb. 27
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Decision Trees
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                [<a href="http://hunch.net/~coms-4771/quinlan.pdf">Quinlan 1985</a>]<br>
+                [<a href="https://www.jstor.org/stable/pdf/2699986.pdf?refreqid=excelsior%3A4a12047a831ef2f51e03a13d2a4e52ee">Friedman 2001</a>]<br>
+                [<a href="https://arxiv.org/abs/1603.02754">Chen et al 2016</a>]
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  hw2 <font color="red">due</font>, hw3 <font color="blue">out</font>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                7
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Mar. 6
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Neural Networks
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch5 PRML 2006
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                   
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                8
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Mar. 13
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                <font color="red"> Midterm Exam</font>
+               </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch5 PRML 2006
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                9
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Mar. 20 
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               <font color="green">Spring break</font>
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                -
+                </td>
+                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                    hw3 <font color="red">due</font>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                10
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Mar. 27
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               kNN, Clustering, EM
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch9 PRML 2006
+                </td>
+                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                     
+                </td>
+            </tr>
+           <tr ALIGH=LEFT>
+              <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                11
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Apr. 3
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Graphical models
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch8 PRML 2006
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                 HW4  <font color="blue">out</font>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>  
+              <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                12
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Apr. 10 
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Deep learning (1) - CNN
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                Ch9 DL 2016<br>
+                [<a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf">LeCun et al 1998</a>]<br>
+                </td>
+                <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                13
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Apr. 17
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                Deep learning (2) - NLP models
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                
+                [<a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Mikolov et al 2013</a>]
+                [<a href="http://www.bioinf.jku.at/publications/older/2604.pdf">Hochreiter & Schmidhuber 1997</a>]<br>
+                [<a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/">colah's blog, 2015</a>]<br>
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                 HW4 <font color="red">due</font> 
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                14
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Apr. 24
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Final review, Q&A
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                  <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                15
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                May 1
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               
+               Project Video Review
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+               -
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                  <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                16
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                May 8 
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                <font color="green">No class: friday class schedule </font>
+               </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                - 
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  <strong> Project report <font color="red">due</font></strong>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                  <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                17
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                May 16 
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                Final Exam
+               </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                - 
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  -
+                </td>
+            </tr>
+  </table>
+
+
+    </div>
+ </div>
+
+    <br><br><br>
+    <hr>
+</body>
