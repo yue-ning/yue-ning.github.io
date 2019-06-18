@@ -34,7 +34,7 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="navbar container">
+        <div class="navbar" style="max-width:1000px;margin:auto">
             <a id="author-name" class="alignable pull-left">CS584: Natural Language Processing </a>
             <ul class="alignable pull-right navbar-ul">
                 <li class="alignable pull-right nav-list"><a class="cool-link" href=".">&#8594;home</a></li>
@@ -42,7 +42,7 @@
         </div>
         <div style="clear:both"></div>
         <hr>
-       <div class="container content">
+       <div class="content" style="max-width:1000px;margin:auto">
          <p></p>
 
 <h2>General Information</h2>
@@ -64,16 +64,16 @@
 Natural language processing (NLP) is one of the most important technologies in the era of information. Comprehending human language is also a crucial and challenging part of artificial intelligence. People communicate almost everything in language: conferences, emails, customer service, language translation, web searches, reports, etc. There are a large variety of underlying tasks and machine learning models behind NLP applications. Recently, deep learning approaches have achieved high performance in many different NLP tasks. Instead of traditional and task-specific feature engineering, deep learning can solve tasks with single end-to-end models. The course provides an introduction to machine learning research applied to NLP. We will cover topics including word vector representations, neural networks, recurrent neural networks, convolutional neural networks, semi-supervised models, as well as some attention-based models. 
 
 <h2>Prerequisites</h2>
-This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. <strong><u>You should have background in probability theory, linear algebra, calculus.
+This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. <strong><u>You should have background in python programming, probability theory, linear algebra, calculus, and foundations of machine learning.
 </u></strong>
 
 <h2>Reading</h2>
 <ul>
 
-  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016. <a href="https://www.deeplearningbook.org/">Deep Learning</a>, MIT Press. We will cover topics including basic neural networks, back propagation, and CNN.</li>
+  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016. <a href="https://www.deeplearningbook.org/">Deep Learning</a> (<strong>DL</strong>), MIT Press. We will cover topics including basic neural networks, back propagation, and CNN.</li>
   <li> Dan Jurafsky and James H. Martin. 2018.
-  <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing (3rd ed. draft)</a>.</li>
-  <li>Yoav Goldberg. <a href="https://u.cs.biu.ac.il/~yogo/nnlp.pdf">A Primer on Neural Network Models for Natural Language Processing</a>.</li>
+  <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing (3rd ed. draft)</a> (<strong>SLP</strong>).</li>
+  <li>Yoav Goldberg. <a href="https://u.cs.biu.ac.il/~yogo/nnlp.pdf">A Primer on Neural Network Models for Natural Language Processing</a> (<strong>NNLP</strong>).</li>
 </ul>
 
 <h2>Coursework</h2>
@@ -87,7 +87,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
 
 </ul>
 <h2>Schedule (tentative)</h2>
-<table>
+<table border="1">
               <tr ALIGH=LEFT>
                  <th VALIGN=TOP WIDTH=80px ALIGN=center>
                 Week
@@ -117,7 +117,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Introduction to NLP
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                
+                  CH1-3 SLP
                 </td>
                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
                 </td>
@@ -130,13 +130,12 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Sep. 4
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-               Machine learning basics
+               Machine learning basics & Neural networks
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-
+                    CH2-5 DL
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                  HW1 <font color="blue">out</font>
                 </td>
             </tr>
             <tr ALIGH=LEFT>
@@ -147,12 +146,15 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Sep. 11
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-               Neural networks
+               Vector Semantics: TFIDF, CBOW, Skip-gram, Glove
               </td>
-                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
-
+                  <td VALIGN=TOP WIDTH=320px ALIGN=left>
+                    CH 6 SLP 
+                    <br>
+                    <a href="https://arxiv.org/pdf/1301.3781.pdf">Mikolov et al. 2013</a> (word2vec)<br>
+                <a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Mikolov et al. 2013</a> (Negative sampling)
                 </td>
-                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                 <td VALIGN=TOP WIDTH=50px ALIGN=left>
                   
                 </td>
             </tr>
@@ -167,10 +169,10 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Deep feedforward networks
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                
+                CH6-8 DL
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                  HW2  <font color="blue">out</font>, HW1 <font color="red">due</font>
+
                 </td>
             </tr>
             <tr ALIGH=LEFT>
@@ -181,9 +183,10 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Sep. 25
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-              Dependency parsing and Recurrent neural networks(RNN)
+              Language Modeling
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    CH 3 SLP
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
                   
@@ -197,12 +200,12 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Oct. 2
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-               Vanishing gradients and more RNNs
+              Dependency parsing and Recurrent neural networks(RNN)
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    CH 9, 13 SLP
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                  HW2 <font color="red">due</font>
                 </td>
             </tr>
               <tr ALIGH=LEFT>
@@ -213,12 +216,12 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Oct. 9
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-              Convolutional neural networks (CNN)
+             More on RNNs (vanishing gradients)
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <a href="http://www.deeplearningbook.org/contents/rnn.html">CH10 DL</a>
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                   HW3  <font color="blue">out</font>
                 </td>
             </tr>
             <tr ALIGH=LEFT>
@@ -243,14 +246,14 @@ Submissions: All assignments (homework problems and project milestones) must be 
              <td VALIGN=TOP WIDTH=100px ALIGN=left>
                Oct. 23
                 </td>
-              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-               Sequence to sequence models
+                 <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+              Convolutional neural networks
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                -
+                    CH9 DL
                 </td>
+             
                   <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                    Project proposal <font color="red">due</font> (Oct. 28)
                 </td>
             </tr>
              <tr ALIGH=LEFT>
@@ -261,12 +264,13 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 Oct. 30
                 </td>
               <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
-               Attention models
+               Machine Translation, Seq2seq models, attention models
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                  CH 10 DL <br>
+                  <a href="https://arxiv.org/pdf/1409.3215.pdf">Sutskever et al. 2014</a>
                 </td>
                   <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                    HW3 <font color="red">due</font> 
                 </td>
             </tr>
            <tr ALIGH=LEFT>
@@ -280,9 +284,11 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Tree recursive neural networks and constituency parsing
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <a href="https://www.aclweb.org/anthology/P13-1045">Socher et al. 2013</a>
+                <br>
+                <a href="https://arxiv.org/pdf/1805.01052.pdf">Kitaev et al. 2018</a>
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                 HW4  <font color="blue">out</font>
                 </td>
             </tr>
              <tr ALIGH=LEFT>  
@@ -315,7 +321,6 @@ Submissions: All assignments (homework problems and project milestones) must be 
                 -
                 </td>
               <td VALIGN=TOP WIDTH=120px ALIGN=left>
-                 HW4 <font color="red">due</font> 
                 </td>
 
             </tr>
@@ -332,9 +337,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
                 -
                 </td>
-             
-                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                   </td>
+            
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
                 </td>
             </tr>
