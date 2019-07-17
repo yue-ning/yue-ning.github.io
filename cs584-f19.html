@@ -48,7 +48,7 @@
 <h2>General Information</h2>
 
 <ul>
-  <li><strong>Time</strong>: Wednesday 6:15PM - 8:45PM, fall semester, 2019</li>
+  <li><strong>Time</strong>: Wednesday 6:30PM - 9:00PM, fall semester, 2019</li>
   <li><strong>Location</strong>: TBD</li>
   <li><strong>Instructor</strong>: Yue Ning </li>
   <li><strong>Office Hours</strong>: TBD </li>
@@ -61,7 +61,8 @@
 
 <h2>What is this course about?</h2>
 
-Natural language processing (NLP) is one of the most important technologies in the era of information. Comprehending human language is also a crucial and challenging part of artificial intelligence. People communicate almost everything in language: conferences, emails, customer service, language translation, web searches, reports, etc. There are a large variety of underlying tasks and machine learning models behind NLP applications. Recently, deep learning approaches have achieved high performance in many different NLP tasks. Instead of traditional and task-specific feature engineering, deep learning can solve tasks with single end-to-end models. The course provides an introduction to machine learning research applied to NLP. We will cover topics including word vector representations, neural networks, recurrent neural networks, convolutional neural networks, semi-supervised models, as well as some attention-based models. 
+Natural language processing (NLP) is one of the most important technologies referring to automatic computational processing of human languages. This includes algorithms that take human-produced text as input or produce text as output. People communicate almost everything in language: emails, phone calls, language translation, web searches, reports, books, social media, etc. Human language is symbolic in nature and also highly ambiguous and variable. Comprehending human language is a crucial and challenging part of artificial intelligence. There are a large variety of underlying tasks and machine learning models behind NLP applications. Recently, deep learning approaches have been studied and achieved high performance in many NLP tasks. 
+The course provides an introduction to machine learning and deep learning research applied to NLP. We will cover topics including word vector representations, neural networks, recurrent neural networks, convolutional neural networks, seq2seq models, as well as some attention-based models. 
 
 <h2>Prerequisites</h2>
 This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. <strong><u>You should have background in python programming, probability theory, linear algebra, calculus, and foundations of machine learning.
@@ -70,20 +71,20 @@ This course is fast-paced and covers a lot of ground, so it is important that yo
 <h2>Reading</h2>
 <ul>
 
-  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016. <a href="https://www.deeplearningbook.org/">Deep Learning</a> (<strong>DL</strong>), MIT Press. We will cover topics including basic neural networks, back propagation, and CNN.</li>
+  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville, 2016. <a href="https://www.deeplearningbook.org/">Deep Learning</a> (<strong>DL</strong>), MIT Press. We will cover topics including basic neural networks, back propagation, RNNs and CNNs.</li>
   <li> Dan Jurafsky and James H. Martin. 2018.
   <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing (3rd ed. draft)</a> (<strong>SLP</strong>).</li>
-  <li>Yoav Goldberg. <a href="https://u.cs.biu.ac.il/~yogo/nnlp.pdf">A Primer on Neural Network Models for Natural Language Processing</a> (<strong>NNLP</strong>).</li>
+  <li>Yoav Goldberg. 2017. <a href="https://www.amazon.com/Language-Processing-Synthesis-Lectures-Technologies-ebook/dp/B071FGKZMH">Neural Network Models for Natural Language Processing</a> (<strong>NNLP</strong>).</li>
 </ul>
 
 <h2>Coursework</h2>
 Submissions: All assignments (homework problems and project milestones) must be submitted on Canvas by 6:30 PM. You have two (2) late days in total that can be distributed among the homework assignments without penalty.
 <ul>
-  <li>Homework (50%): There will be bi-weekly homework assignments with both written and programming parts. Each assignment is centered around an application and will also deepen your understanding of the theoretical concepts</li>
+  <li>Homework (50%): There will be bi-weekly homework assignments with both written and programming parts. Each assignment is centered around an application and will also deepen your understanding of the theoretical concepts.</li>
     <li>Midterm Exam (15%): The midterm exam is to evaluate your understanding of the course so far. It will be an in-class written exam.</li>
       <li>Project (25%): The final project provides an opportunity for you to use the tools from class to build something interesting of your choice. You need to make a presentation in class and submit a report. </li>
-    <li>Participation (5%): Discussions on Canvas and attending classes 
-      <li>Quizzes (5%): top 2 out of 5 quizzes</li>
+    <li>Participation (5%): Discussions on Canvas and attending classes. 
+      <li>Quizzes (5%): top 2 out of 5 quizzes.</li>
 
 </ul>
 <h2>Schedule (tentative)</h2>
@@ -117,7 +118,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Introduction to NLP
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                  CH1-3 SLP
+                  CH1-3 SLP; CH1 NNLP
                 </td>
                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
                 </td>
@@ -133,7 +134,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Machine Learning Basics & Neural Networks
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                    CH2-5 DL
+                    CH2-5 DL; CH2-5 NNLP
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
                 </td>
@@ -149,10 +150,11 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Vector Semantics: TFIDF, CBOW, Skip-gram, Glove
               </td>
                   <td VALIGN=TOP WIDTH=320px ALIGN=left>
-                    CH 6 SLP; CH10-11 NNLP
+                    CH 6 SLP; CH6-8, CH10-11 NNLP
                     <br>
                     <a href="https://arxiv.org/pdf/1301.3781.pdf">Mikolov et al. 2013</a> (word2vec)<br>
-                <a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Mikolov et al. 2013</a> (Negative sampling)
+                <a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Mikolov et al. 2013</a> (Negative sampling) <br>
+                <a href="https://nlp.stanford.edu/projects/glove/">GloVe 2014</a>
                 </td>
                  <td VALIGN=TOP WIDTH=50px ALIGN=left>
                   
@@ -219,7 +221,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
              More on RNNs (vanishing gradients)
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                    <a href="http://www.deeplearningbook.org/contents/rnn.html">CH10 DL</a>
+                    <a href="http://www.deeplearningbook.org/contents/rnn.html">CH10 DL</a>; CH15-16 NNLP
                 </td>
                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
                 </td>
@@ -250,7 +252,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
               Convolutional Neural Networks (CNNs)
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                    CH9 DL
+                    CH9 DL; CH 13 NNLP
                 </td>
              
                   <td VALIGN=TOP WIDTH=120px ALIGN=left>
@@ -267,7 +269,7 @@ Submissions: All assignments (homework problems and project milestones) must be 
                Machine Translation, Seq2seq models, Attention models
               </td>
                   <td VALIGN=TOP WIDTH=140px ALIGN=left>
-                  CH 10 DL <br>
+                  CH 10 DL; CH 17 NNLP <br>
                   <a href="https://arxiv.org/pdf/1409.3215.pdf">Sutskever et al. 2014</a>
                 </td>
                   <td VALIGN=TOP WIDTH=120px ALIGN=left>
