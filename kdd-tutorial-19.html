@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yue Ning</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Yue Ning, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Yue Ning RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="./css/main.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Yue Ning">
+    <meta name="og:url" content="./research.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Yue Ning">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="./research.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar container" style="max-width:1000px;margin:auto">
+            <a id="author-name" class="alignable pull-left">Spatio-Temporal Event Forecasting and Precursor Identification
+</a>
+            <ul class="alignable pull-right navbar-ul">
+        Tutorial in 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2019)
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+       <div class="container content" style="max-width:1000px;margin:auto">
+       	Presenters: <a href="https://yue-ning.github.io/">Yue Ning</a>, <a href="http://mason.gmu.edu/~lzhao9/">Liang Zhao</a>, Feng Chen, <a href="http://www.nvc.cs.vt.edu/~ctlu/">Chang-Tien Lu</a>, and <a href="https://cs.gmu.edu/~hrangwal/">Huzefa Rangwala</a><br>
+
+Other contributor: <a href="http://people.cs.vt.edu/naren/">Naren Ramakrishnan</a>.
+<br>
+<br>
+<!--<a href="#slides">[Slides]</a> 
+  <a href="#abstract">[Abstract] </a>
+  <a href="#outline">[Outline]</a>
+  <a href="#reference">[References]</a> 
+<a href="#presenters">[Presenters]</a>
+-->
+<hr>
+<h2 name="slides">Slides </h2>
+<a href="docs/KDD19-tutorial-spatio-temporal_final.pdf">download</a>
+
+<hr>
+<h2 name="abstract">Abstract</h2>
+ <p>Spatio-temporal societal event forecasting, which has traditionally
+been prohibitively challenging, is now becoming possible and experiencing rapid growth thanks to the big data from Open Source
+Indicators (OSI) such as social media, news sources, blogs, economic
+indicators, and other meta-data sources. Spatio-temporal societal
+event forecasting and their precursor discovery benefit the society
+by providing insight into events such as political crises, humanitarian crises, mass violence, riots, mass migrations, disease outbreaks,
+economic instability, resource shortages, natural disasters, and others. In contrast to traditional event detection that identifies ongoing
+events, event forecasting focuses on predicting future events yet to
+happen. Also different from traditional spatio-temporal predictions
+on numerical indices, spatio-temporal event forecasting needs to
+leverage the heterogeneous information from OSI to discover the
+predictive indicators and mappings to future societal events. While
+studying large scale societal events, policy makers and practitioners aim to identify precursors to such events to help understand
+causative attributes and ensure accountability. The resulting problems typically require the predictive modeling techniques that can
+jointly handle semantic, temporal, and spatial information, and
+require a design of efficient and interpretable algorithms that scale
+to high-dimensional large real-world datasets.
+In this tutorial, we will present a comprehensive review of the
+state-of-the-art methods for spatio-temporal societal event forecasting. First, we will categorize the inputs OSI and the predicted
+societal events commonly researched in the literature. Then we will
+review methods for temporal and spatio-temporal societal event
+forecasting. Next, we will also discuss the foundations of precursor
+identification with an introduction to various machine learning approaches that aim to discover precursors while forecasting events.
+Through the tutorial, we expect to illustrate the basic theoretical
+and algorithmic ideas and discuss specific applications in all the
+above settings.</p>
+
+<h2>Outline (tentative)</h2>
+<ul>
+  <li>Introduction</li>
+    <ul>
+    <li>Open source indicators to societal events</li>
+    <li>Main challenges</li>
+    <li>Temporal Event Forecasting</li>
+    <li>Comparisons with event detection</li>
+    <li>Comparisons with spatio prediction</li>
+    <li>Event forecasting and precursor discovery</li>
+  </ul>
+  <li>Precursor Identification</li>
+  <li>Temporal Event Forecasting</li>
+  <ul>
+    <li>Nested Multi-tnstance learning
+      <li>Multi-instance learning + Convolutional neural networks
+      <li>Multi-task learning 
+      <li>Graph Neural Networks 
+   </ul>
+  <li>Temporal Event Forecasting</li>
+  <ul>
+    <li>Causal dependency mining
+      <ul>
+       <li>Predefined causality
+       <li>Optimized causality
+        </ul>
+  <li>Temporal dependency mining
+   <ul>
+       <li>Markov decision processes
+      <li>Deep neural networks
+      <li>Anormaly mining
+    </ul>
+    <ul>
+       <li>Scan-Statistic based
+      <li>Distance based
+      </ul>
+     </ul>
+  <li>Spatio-Temporal Event Forecasting</li>
+  <ul>
+    <li>Discriminative models</li>
+        <ul>
+        <li>Multi-task models </li>
+        <li>Multi-level models </li>
+        <li>Multi-view models </li>
+        <li>Multi-layer models </li>
+      </ul>
+    <li>Generative and mechanistic models</li>
+            <ul>
+        <li>Generative models </li>
+        <li>Mechanistic models </li>
+      </ul>
+    <li>Ensemble models</li>
+                <ul>
+        <li>Data-driven Models </li>
+        <li>Data-driven+Mechanistic-driven Models</li>
+      </ul>
+  </ul>
+  <li>Summary and Future Work</li>
+</ul>
+<br>
+<hr>
+<h2>Presenters</h2>
+<ul>
+  <li>Yue Ning is an assistant professor in the department of Computer Science at Stevens Institute of Technology. Dr. Ning received her Ph.D. in Computer Science at Virginia Tech in 2018. Her research focuses on applied machine learning, data analytics, and social media analysis motivated by real-world problems in social informatics, health informatics, and personalization</li>
+  <li>Liang Zhao is an assistant professor in the department of Information Science and Technology at GMU. Dr. Zhao received the Ph.D. in Computer Science at Virginia Tech, in 2016. His research interests include data mining And machine learning, with special interests in spatiotemporal data mining, social event forecasting, sparse feature learning, and social media mining.</li>
+    <li>Feng Chen is an assistant professor in the department of Computer Science at University of Texas at Dallas. His research interests include in-
+clude anomalous pattern detection, event detection and forecasting, graph
+mining, and machine learning. Previously, he was a postdoctoral research
+fellow at Carnegie Mellon University. He received his Ph.D. from the
+Computer Science Department at Virginia Tech on December 2012. </li>
+  <li>Huzefa Rangwala is a Professor of Computer Science at George Mason University. He is also affilated with the Bioengineering and Bioinformatics Department at George Mason University. Dr. Rangwala graduated with a Ph.D. (2008) and M.S. (2005) in Computer Science from the University of Minnesota, Twin Cities (USA).</li>
+    <li>Chang-Tien Lu is a Professor of Computer Science and Associate Di-
+rector of the Discovery Analytics Center at Virginia Tech. He received
+his Ph.D. from the University of Minnesota at Twin Cities in 2001. His research interests include spatial databases, data mining, urban computing, and intelligent transportation systems.</li>
+</ul>
+<hr>
+<h2>References</h2>
+<p>[1] Somayyeh Aghababaei and Masoud Makrehchi. Mining social media content for crime prediction. In Web Intelligence (WI), 2016 IEEE/WIC/ACM International Conference on, pages 526-531. IEEE, 2016 </p>
+<p>[2] Marta Arias, Argimiro Arratia, and Ramon Xuriguera. Forecasting with Twitter data. ACM Transactions on Intelligent Systems and Technology (TIST), 5(1):8, 2013. </p>
+<p>[3] Johan Bollen, Huina Mao, and Xiaojun Zeng. Twitter mood predicts the stock market. Journal of Computational Science, 2(1):1, 2011. </p>
+<p>[4] Feng Chen and Daniel B Neill. Non-parametric scan statistics for event detection and forecasting in heterogeneous social media graphs. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining, pages 1166-1175. ACM, 2014 </p>
+<p>[5] Mahtab Jahanbani Fard, Ping Wang, Sanjay Chawla, and Chandan K Reddy. A bayesian perspective on early stage event prediction in longitudinal data. IEEE Transactions on Knowledge and Data Engineering, 28(12):3126-3139, 2016. </p>
+<p>[6] Yuyang Gao and Liang Zhao. Incomplete label multi-task ordinal regression for spatial event scale forecasting. In AAAI Conference on Artificial Intelligence, pages 2999-3006, 2018. </p>
+<p>[7] Mark Granroth-Wilding and Stephen Clark. What happens next? event prediction using a compositional neural network model. In Thirtieth AAAI Conference on Artificial Intelligence, 2016. </p>
+<p>[8] Linmei Hu, Juanzi Li, Liqiang Nie, Xiao-Li Li, and Chao Shao. What happens next? future subevent prediction using contextual hierarchical lstm. In AAAI Conference on Artificial Intelligence, 2017. </p>
+<p>[9] Hyeon-Woo Kang and Hang-Bong Kang. Prediction of crime occurrence from multi-modal data using deep learning. PloS one, 12(4):e0176244, 2017.</p>
+<p> [10] Gizem Korkmaz, Jose Cadena, Chris J Kuhlman, Achla Marathe, Anil Vullikanti, and Naren Ramakrishnan. Combining heterogeneous data sources for civil unrest forecasting. In Advances in Social Networks Analysis and Mining (ASONAM), 2015 IEEE/ACM International Conference on, pages 258-265. IEEE, 2015 </p>
+<p>[11] Canasai Kruengkrai, Kentaro Torisawa, Chikara Hashimoto, Julien Kloetzer, Jong-Hoon Oh, and Masahiro Tanaka. Improving event causality recognition with multiple background knowledge sources using multi-column convolutional neural networks. In AAAI Conference on Artificial Intelligence, 2017. </p>
+<p>[12] Sathappan Muthiah, Patrick Butler, Rupinder Paul Khandpur, Parang Saraf, Nathan Self, Alla Rozovskaya, Liang Zhao, Jose Cadena, ChangTien Lu, Anil Vullikanti, Achla Marathe, Kristen Summers, Graham Katz, Andy Doyle, Jaime Arredondo, Dipak K. Gupta, David Mares, and Naren Ramakrishnan. Embers at 4 years: Experiences operating an open source 7 indicators forecasting system. In Proceedings of the 22Nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, KDD 2016, pages 205-214, New York, NY, USA, 2016. ACM. </p>
+<p>[13] Yue Ning, Sathappan Muthiah, Huzefa Rangwala, and Naren Ramakrishnan. Modeling precursors for event forecasting via nested multi-instance learning. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 1095-1104. ACM, 2016 </p>
+<p>[14] Karl Pichotta and Raymond J Mooney. Learning statistical scripts with lstm recurrent neural networks. In AAAI, pages 2800-2806, 2016. </p>
+<p>[15] Fengcai Qiao, Pei Li, Xin Zhang, Zhaoyun Ding, Jiajun Cheng, and Hui Wang. Predicting social unrest events with hidden markov models using gdelt. Discrete Dynamics in Nature and Society, 2017, 2017. </p>
+<p>[16] Kira Radinsky and Sagie Davidovich. Learning to predict from textual data. Journal of Artificial Intelligence Research, 45(1):641-684, 2012. </p>
+<p>[17] Kira Radinsky and Eric Horvitz. Mining the web to predict future events. In WSDM, pages 255-264, 2013 </p>
+<p>[18] Naren Ramakrishnan, Patrick Butler, Sathappan Muthiah, Nathan Self, Rupinder Khandpur, Parang Saraf, Wei Wang, Jose Cadena, Anil Vullikanti, Gizem Korkmaz, et al. "beating the news" with EMBERS: forecasting civil unrest using open source indicators. In KDD 2014, pages 1799-1808. ACM, 2014. </p>
+<p>[19] Theodoros Rekatsinas, Saurav Ghosh, Sumiko R Mekaru, Elaine O Nsoesie, John S Brownstein, Lise Getoor, and Naren Ramakrishnan. Sourceseer: Forecasting rare disease outbreaks using multiple data sources. In Proceedings of the 2015 SIAM International Conference on Data Mining, pages 379-387. SIAM, 2015. </p>
+<p>[20] Philip A Schrodt. Forecasting conflict in the balkans using hidden markov models. In Programming for Peace, pages 161-184. Springer, 2006. </p>
+<p>[21] Minglai Shao, Jianxin Li, Feng Chen, Hongyi Huang, Shuai Zhang, and Xunxun Chen. An efficient approach to event detection and forecasting in dynamic multivariate social media networks. In Proceedings of the 26th International Conference on World Wide Web, pages 1631-1639. International World Wide Web Conferences Steering Committee, 2017. </p>
+<p>[22] Andranik Tumasjan, Timm Oliver Sprenger, Philipp G Sandner, and Isabell M Welpe. Predicting elections with Twitter: What 140 characters reveal about political sentiment. ICWSM, 10:178-185, 2010. </p>
+<p>[23] Xiaofeng Wang, Matthew S Gerber, and Donald E Brown. Automatic crime prediction using events extracted from Twitter posts. In Social Computing, Behavioral-Cultural Modeling and Prediction, pages 231-238. Springer, 2012. </p>
+<p>[24] Wang, Zhongqing, and Yue Zhang. DDoS event forecasting using Twitter data. Proceedings of the 26th International Joint Conference on Artificial Intelligence. AAAI Press, 2017.</p>
+<p>[25] Qian Zhang, Nicola Perra, Daniela Perrotta, Michele Tizzoni, Daniela Paolotti, and Alessandro Vespignani. Forecasting seasonal influenza fusing digital indicators and a mechanistic disease model. In Proceedings of the 26th International Conference on World Wide Web, pages 311-319. International World Wide Web Conferences Steering Committee, 2017. </p>
+<p>[26] Liang Zhao, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Spatiotemporal event forecasting in social media. In SDM 15, pages 963-971. SIAM, 2015 </p>
+<p>[27] Liang Zhao, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Multiresolution spatial event forecasting in social media. In Data Mining (ICDM), 2016 IEEE 16th International Conference on, pages 689-698. IEEE, 2016. </p>
+<p>[28] Liang Zhao, Jiangzhuo Chen, Feng Chen, Wei Wang, Chang-Tien Lu, and Naren Ramakrishnan. Simnest: Social media nested epidemic simulation via online semi-supervised deep learning. In Data Mining (ICDM), 2015 IEEE International Conference on, pages 639-648. IEEE, 2015 </p>
+<p>[29] Liang Zhao, Qian Sun, Jieping Ye, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Multi-task learning for spatio-temporal event forecasting. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 1503-1512. ACM, 2015. </p>
+<p>[30] Liang Zhao, Qian Sun, Jieping Ye, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Feature constrained multi-task learning models for spatiotemporal event forecasting. IEEE Transactions on Knowledge and Data Engineering, 29(5):1059-1072, 2017 </p>
+<p>[31] Liang Zhao, Junxiang Wang, and Xiaojie Guo. Distant-supervision of heterogeneous multitask learning for social event forecasting with multilingual indicators. In AAAI Conference on Artificial Intelligence, pages 4498-4505, 2018. </p>
+<p>[32] Liang Zhao, Jieping Ye, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Hierarchical incomplete multi-source feature learning for spatiotemporal event forecasting. In Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pages 2085-2094. ACM, 2016. </p>
+<p>[33] Chen, F., Neill, D. B. (2014, August). Non-parametric scan statistics for event detection and forecasting in heterogeneous social media graphs. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 1166-1175). ACM. </p>
+<p>[34] Chen, F., Neill, D. B. (2015). Human rights event detection from heterogeneous social media graphs. Big Data, 3(1), 34-40. </p>
+<p>[35] Rozenshtein, P., Anagnostopoulos, A., Gionis, A., Tatti, N. (2014, August). Event detection in activity networks. In Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining(pp. 1176- 1185). ACM. </p>
+<p>[36] Chen, F.,Neill, D. B. (2015). Human rights event detection from heterogeneous social media graphs. Big Data, 3(1), 34-40. </p>
+<p>[37] Wu, Congyu, and Matthew S. Gerber. Forecasting Civil Unrest Using Social Media and Protest Participation Theory.IEEE Transactions on Computational Social Systems 5, no. 1 (2018): 82-94. </p>
+<p>[38] Zhuoning Yuan, Xun Zhou, Tianbao Yang. Hetero-ConvLSTM: A Deep Learning Approach to Traffic Accident Prediction on Heterogeneous Spatio-Temporal Data. In 24th ACM SIGKDD International Conference on Knowledge Discovery from Data (KDD), 2018 (Accepted). </p>
+<p>[39] Yuyang Gao, Liang Zhao, Lingfei Wu, Yanfang Ye, Hui Xiong, Chaowei Yang. Incomplete Label Multi-task Deep Learning for Spatio-temporal Event Subtype Forecasting.Thirty-third AAAI Conference on Artificial Intelligence (AAAI 2019), Hawaii, USA, Feb 2019, to appear. </p>
+<p>[40] Liang Zhao, Feng Chen, Chang-Tien Lu, and Naren Ramakrishnan. Online Spatial Event Forecasting in Microblogs. ACM Transactions on Spatial Algorithms and Systems (TSAS), Volume 2 Issue 4, Acticle No. 15, pp. 1-39, November 2016. </p>
+<p>[41] Fang Jin, Rupinder Khandpur, Nathan Self, Edward Dougherty, Sheng Guo, Feng Chen, B. Aditya Prakash, Naren Ramakrishnan. Modeling Mass Protest Adoption in Social Network Communities using Geometric Brownian Motion, in Proceedings of the 20th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'14), Aug 2014. </p>
+<p>[42] Ting Hua, Chandan Reddy, Lijing Wang, Liang Zhao, Lei Zhang, Chang-Tien Lu, and Naren Ramakrishnan. Social Media based Simulation Models for Understanding Disease Dynamics. the 27th International Joint Conference on Artificial Intelligence (IJCAI 2018) (acceptance rate: 20.6%), Stockholm, Sweden, Jul 2018, to appear.</p>
+<p>[43] Wei Wang, Yue Ning, Huzefa Rangwala, Naren Ramakrishnan. A Multiple Instance Learning Framework for Identifying Key Sentences and Detecting Events.In Proceedings of the 25th ACM International Conference on Information and Knowledge Management (CIKM’16). Indianapolis, IN, USA. Oct. 24-28, 2016.</p>
+<p>[44]Yue Ning, Rongrong Tao, Chandan K. Reddy, Huzefa Rangwala, James C. Starz, Naren Ramakrishnan. "STAPLE: Spatio-Temporal Precursor Learning for Event Forecasting" In Proceedings of the 18th SIAM International Conference on Data Mining (SDM’18). San Diego, CA, USA. May 3-5, 2018.</p>
+<p>[45]Songgaojun Deng, Huzefa Rangwala, Yue Ning. "Learning Dynamic Context Graphs for Predicting Social Events" in Proceedings of the 25th ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD'19). Anchorage, Alaska USA. August 4-8, 2019.</p>
+    </div>
+ </div>
+
+    <br><br><br>
+    <hr>
+</body>
