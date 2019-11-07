@@ -147,6 +147,7 @@ a:hover{
   float: left;
   width: 30%;
   padding: 2px;
+  vertical-align: top;
 }
 
 /* Clear floats after image containers */
@@ -158,7 +159,14 @@ a:hover{
 p 
 .content .profile-picture{
 	padding:0;
-	margin:0
+	margin:0;
+	word-break: break-all;
+}
+.ow-break-word {
+   overflow-wrap: break-word;
+}
+.hyphens {
+   hyphens: auto;
 }
 @media (max-width: 480px)
 {
