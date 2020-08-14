@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Yue Ning: Natural Language Processing (Fall 2020)</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="blog, accent, , Yue Ning, jekyll">
+    <meta name="author" content="">
+    
+    
+    
+    <meta name="description" content="">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="alternate" type="application/rss+xml" title="Yue Ning RSS" href="/feed.xml" />
+    <link rel="stylesheet" href="./css/main.css">
+    
+    
+    <!-- Facebook Open Graph -->
+    <meta name="og:description" content="">
+    <meta name="og:title" content="Yue Ning">
+    <meta name="og:url" content="./research.html">
+    <meta name="og:type" content="article">
+    
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Yue Ning">
+    <meta name="twitter:description" content="">
+    <meta name="twitter:url" content="./research.html">
+    
+        <meta name="twitter:image" content="">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="navbar" style="max-width:1000px;margin:auto">
+            <a id="author-name" class="alignable pull-left">CS584: Natural Language Processing </a>
+            <ul class="alignable pull-right navbar-ul">
+                <li class="alignable pull-right nav-list"><a class="cool-link" href=".">&#8594;home</a></li>
+            </ul>
+        </div>
+        <div style="clear:both"></div>
+        <hr>
+       <div class="content" style="max-width:1000px;margin:auto">
+         <p></p>
+
+<h2>General Information</h2>
+
+<ul>
+  <li><strong>Time</strong>: Wednesday 06:30PM-09:00PM, fall semester, 2020</li>
+  <li><strong>Meeting Location</strong>: Zoom Meetings</li>
+  <li><strong>Instructor</strong>: Yue Ning </li>
+  <li><strong>Office</strong>: Gateway South 448 </li>
+  <li><strong>Office Hours</strong>: Mondays 2:00-4:00PM  </li>
+  <li><strong>Teaching assistant</strong>: Kun Wu <a href="mailto:kwu14@stevens.edu">kwu14@stevens.edu</a></li>
+  <li><strong>Course details</strong>: We will be using <a href="https://sit.instructure.com/courses/40716">Canvas</a> for online discussion, announcements, and homework submission. You are encouraged to ask and answer questions on the forum as long as you do not give away solutions to homework problems. Participation in the online forum will count towards class participation.</li>
+</ul>
+
+
+
+
+<h2>What is this course about?</h2>
+
+Natural language processing (NLP) is one of the most important technologies referring to automatic computational processing of human languages. This includes algorithms that take human-produced text as input or produce text as output. People communicate almost everything in language: emails, phone calls, language translation, web searches, reports, books, social media, etc. Human language is symbolic in nature and also highly ambiguous and variable. Comprehending human language is a crucial and challenging part of artificial intelligence. There are a large variety of underlying tasks and machine learning models behind NLP applications. Recently, deep learning approaches have been studied and achieved high performance in many NLP tasks. 
+The course provides an introduction to machine learning and deep learning research applied to NLP. We will cover topics including word vector representations, neural networks, recurrent neural networks, convolutional neural networks, seq2seq models, as well as some attention-based models. 
+
+<h2>Prerequisites</h2>
+This course is fast-paced and covers a lot of ground, so it is important that you have a solid foundation on both the theoretical and empirical fronts. <strong><u>You should have background in python programming, probability theory, linear algebra, calculus, and foundations of machine learning.
+</u></strong>
+
+<h2>Reading</h2>
+<ul>
+
+  <li>Ian Goodfellow and Yoshua Bengio and Aaron Courville. <a href="https://www.deeplearningbook.org/">Deep Learning</a> (<strong>DL</strong>). 2016. MIT Press. We will cover topics including basic neural networks, back propagation, RNNs and CNNs.</li>
+  <li> Dan Jurafsky and James H. Martin. 
+  <a href="https://web.stanford.edu/~jurafsky/slp3/ed3book.pdf">Speech and Language Processing (3rd ed. draft)</a> (<strong>SLP</strong>). 2018. </li>
+  <li>Yoav Goldberg. <a href="https://www.amazon.com/Language-Processing-Synthesis-Lectures-Technologies-ebook/dp/B071FGKZMH">Neural Network Methods for Natural Language Processing</a> (<strong>NNLP</strong>). 2017.</li>
+</ul>
+
+<h2>Coursework</h2>
+Submissions: All assignments (homework problems and project milestones) must be submitted on Canvas by 6:30 PM on the due dates.
+<ul>
+  <li> <strong><u>Homework (50%)</u></strong>: There will be bi-weekly homework assignments with both written and programming parts. Each assignment is centered around an application and will also deepen your understanding of the theoretical concepts.</li>
+    <li><strong><u>Midterm Exam (15%)</u></strong>: The midterm exam is to evaluate your understanding of the course so far. </li>
+      <li><strong><u>Project (25%)</u></strong>: The final project provides an opportunity for you to use the tools from class to build something interesting of your choice. You need to make a presentation in class and submit a report. </li>
+    <li><strong><u>Participation (5%)</u></strong>: Discussions on Canvas and attending classes. 
+      <li><strong><u>Quizzes (5%)</u></strong>: Online pop quizzes.</li>
+
+</ul>
+<h2>Schedule (tentative)</h2>
+<table border="1">
+              <tr ALIGH=LEFT>
+                 <th VALIGN=TOP WIDTH=80px ALIGN=center>
+                Week
+                </th>
+              <th VALIGN=TOP WIDTH=100px ALIGN=left>
+                Date
+                </th>
+              <th VALIGN=TOP WIDTH=240px  ALIGN=left>
+               Topic
+              </th>
+               <th VALIGN=TOP WIDTH=140px ALIGN=left>
+                Reading
+                </th>
+                  <th VALIGN=TOP WIDTH=120px ALIGN=left>
+                Event
+                </th>
+            </tr>
+             
+              <tr ALIGH=LEFT>
+               <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                1
+                </td>
+               <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Sep. 2
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Introduction to NLP
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                  <strong>CH1-3 SLP; CH1 NNLP</strong>
+                </td>
+                <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                2
+                </td>
+            <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Sep. 9
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Machine Learning Basics & Neural Networks
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <strong>CH2-5 DL; CH2-5 NNLP</strong>
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                3
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Sep. 16
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Vector Semantics: TFIDF, CBOW, Skip-gram, Glove
+              </td>
+                  <td VALIGN=TOP WIDTH=320px ALIGN=left>
+                    <strong>CH 6 SLP; CH6-8, CH10-11 NNLP</strong>
+                    <br>
+                    - Mikolov et al. <a href="https://arxiv.org/pdf/1301.3781.pdf">Efficient Estimation of Word Representations in Vector Space</a>. 2013 (word2vec)<br>
+                 - Mikolov et al. <a href="https://papers.nips.cc/paper/5021-distributed-representations-of-words-and-phrases-and-their-compositionality.pdf">Distributed Representations of Words and Phrases and their Compositionality</a>. 2013 (Negative sampling) <br>
+                - Pennington et al. <a href="https://nlp.stanford.edu/projects/glove/">GloVe: Global Vectors for Word Representation</a>. 2014
+                </td>
+                 <td VALIGN=TOP WIDTH=50px ALIGN=left>
+                  
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                4
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Sep. 23
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Deep Feedforward Networks
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                <strong>CH6-8 DL</strong><br>
+                - Wager et al. <a href="https://papers.nips.cc/paper/4882-dropout-training-as-adaptive-regularization.pdf">Dropout Training as Adaptive Regularization</a>. 2013<br>
+                - Ning Qian. <a href="http://www.columbia.edu/~nq6/publications/momentum.pdf">On the momentum term in gradient descent learning algorithms</a> <br>
+                - Ruder et al. <a href="https://arxiv.org/pdf/1609.04747.pdf">An overview of gradient descent optimization algorithms</a>. 2017 <br>
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  HW1 <font color="red">due</font>
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                5
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Sep. 30
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+              Language Modeling
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <strong>CH 3 SLP; CH9 NNLP</strong> <br>
+                    - Bengio et al. <a href="https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf">A Neural Probabilistic Language Model</a>. 2003
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                6
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Oct. 7
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+              Recurrent Neural Networks (RNNs)
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <strong>CH 9, 13 SLP; CH 14 NNLP</strong> <br>
+                    - Afshine Amidi and Shervine Amidi. <a href="https://stanford.edu/~shervine/teaching/cs-230/cheatsheet-recurrent-neural-networks">Recurrent Neural Networks cheatsheet</a>. 2019
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                   HW2 <font color="red">due</font>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                7
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Oct. 14
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+             More on RNNs (vanishing gradients)
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <a href="http://www.deeplearningbook.org/contents/rnn.html"><strong>CH10 DL</strong></a>; <strong>CH15-16 NNLP</strong> <br>
+                    - Sepp Hochreiter and Jürgen Schmidhuber. <a href="https://www.bioinf.jku.at/publications/older/2604.pdf">Long Short-Term Memory</a>. 1997 (LSTM) <br>
+                    - Cho et al. <a href="https://www.aclweb.org/anthology/D14-1179/">Learning Phrase Representations using RNN Encoder–Decoder for Statistical Machine Translation</a>. 2014
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                8
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Oct. 21
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                Convolutional Neural Networks (CNNs)
+               </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                    <strong>CH9 DL; CH 13 NNLP</strong> <br>
+                    - LeCun et al. <a href="http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf">Gradient-based learning applied to document recognition</a>. 1998
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                   HW3 <font color="red">due</font>
+                </td>
+            </tr>
+            <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                9
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Oct. 28
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                  <font color="red"><strong>Midterm exam</strong></font>
+               </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                      
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                10
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+               Nov. 4
+                </td>
+                 <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                 Machine Translation, Seq2seq models, Attention models
+              
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                   <strong>CH 10 DL; CH 17 NNLP</strong> <br>
+                  - Sutskever et al. <a href="https://arxiv.org/pdf/1409.3215.pdf"> Sequence to Sequence Learning with Neural Networks</a>. 2014
+                </td>
+             
+                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                11
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Nov. 11
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Natural Language Generation
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                  - Rush et al.<a href="https://arxiv.org/pdf/1509.00685.pdf"> A Neural Attention Model for Abstractive Sentence Summarization</a>. 2015<br>
+                 - Yue Dong. <a href="https://arxiv.org/pdf/1804.04589.pdf"> A Survey on Neural Network-Based Summarization Methods</a>. 2018
+                </td>
+                  <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                     HW4 <font color="red">due</font>
+                </td>
+            </tr>
+           <tr ALIGH=LEFT>
+              <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                12
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+                Nov. 18
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+              Tree Recursive Neural Networks and Constituency Parsing
+              </td>
+              <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                 <strong>CH 18 NNLP</strong><br>
+                    - Socher et al. <a href="https://www.aclweb.org/anthology/P13-1045">Parsing with Compositional Vector Grammars</a>. 2013
+                <br>
+                - Kitaev et al. <a href="https://arxiv.org/pdf/1805.01052.pdf"> Constituency Parsing with a Self-Attentive Encoder</a>. 2018
+                </td>
+             
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  <strong>Proposal </strong> <font color="red">due</font>
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>  
+              <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                13
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+               Nov. 25
+                </td>
+                 <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               <font color="green">Thanksgiving - No class</font>
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                  
+                </td>
+                <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  
+                </td>
+            </tr>
+             <tr ALIGH=LEFT>
+                <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                14
+                </td>
+            <td VALIGN=TOP WIDTH=100px ALIGN=left>
+              Dec. 2
+                </td>
+<td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               Dependency Parsing
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+              <strong>CH13 SLP</strong><br>
+              - Chen and Manning. <a href="https://aclweb.org/anthology/papers/D/D14/D14-1082/"> A Fast and Accurate Dependency Parser using Neural Networks</a>. 2014
+                </td>
+              <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                HW5 <font color="red">due</font>
+                </td>
+
+            </tr>
+            
+              <tr ALIGH=LEFT>
+                  <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                15
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+              Dec. 9
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+               
+               <strong>Project presentation</strong>
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+               -
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                </td>
+            </tr>
+              <tr ALIGH=LEFT>
+                  <td VALIGN=TOP WIDTH=80px ALIGN=center>
+                16
+                </td>
+             <td VALIGN=TOP WIDTH=100px ALIGN=left>
+              Dec. 16
+                </td>
+              <td VALIGN=TOP WIDTH=240px  ALIGN=LEFT>
+                <strong>Project presentation</strong>
+              </td>
+                  <td VALIGN=TOP WIDTH=140px ALIGN=left>
+                -
+                </td>
+                 <td VALIGN=TOP WIDTH=120px ALIGN=left>
+                  <strong> Project report <font color="red">due</font></strong>
+                </td>
+            </tr>
+            
+  </table>
+
+
+    </div>
+ </div>
+
+    <br><br><br>
+    <hr>
+</body>
