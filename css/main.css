@@ -5,8 +5,8 @@ html{
 }
 body{
 	margin:0;
-	/*font-family: Optima, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
-	font-family: Optima, "Avenir Next", Avenir, Calibri, Arial, sans-serif;
+	/*font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
+	font-family: Optima, Avenir, Calibri, Arial, sans-serif;
 	color:#000;
 	line-height:1.428571429
 }
@@ -149,7 +149,12 @@ a:hover{
   padding: 2px;
   vertical-align: top;
 }
-
+.column2 {
+  float: left;
+  width: 70%;
+  padding: 2px;
+  vertical-align: top;
+}
 /* Clear floats after image containers */
 .row::after {
   content: "";
@@ -183,9 +188,7 @@ table tr{
 	margin:0;
 	padding:0
 }
-table tr:nth-child(2n){
-	background-color:#f8f8f8
-}
+
 table tr th{
 	font-weight:bold;
 	margin:0;
