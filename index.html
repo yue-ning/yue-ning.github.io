@@ -30,7 +30,71 @@
     <meta name="twitter:url" content="./">
     
         <meta name="twitter:image" content="">
-    <!-- <script src="https://kit.fontawesome.com/7e93f6461d.js" crossorigin="anonymous"></script> -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 82%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
 </head>
 <body>
     <div class="wrapper">
@@ -90,12 +154,18 @@ Hoboken, NJ, USA
 
         <div class="column" style="width: 75%;vertical-align:text-top;">
           <p class="hyphens">
-         Hello! I am an Associate Professor in the department of Computer Science at Stevens Institute of Technology.
+        <!-- Hello! I am an Associate Professor in the department of Computer Science at Stevens Institute of Technology.
          <br><br>
-          My research interests lie at the intersection of <strong>machine learning</strong>, <strong>artificial intelligence</strong>, and <strong>data analytics</strong>, focusing on social informatics, health care, and financial technologies. In particular, my research group is dedicated to developing predictive and generative methods that effectively capture spatio-temporal, dynamic, and interpretable patterns in large-scale datasets. Our work is supported by the National Science Foundation, Nvidia, and Stevens Institute of Technology.
+          My research interests lie at the intersection of <strong>machine learning</strong>, <strong>artificial intelligence</strong>, and <strong>data analytics</strong>, focusing on social informatics, health care, and financial technologies. In particular, my research group is dedicated to developing predictive and generative methods that effectively capture spatio-temporal, dynamic, and interpretable patterns in large-scale datasets. -->
+Hello! I am an Associate Professor in the <a href="https://www.stevens.edu/school-engineering-science/departments/computer-science">Department of Computer Science</a> at Stevens Institute of Technology.
+<br><br>
+
+My research group develops  <strong>machine learning and AI</strong> methods that reason over complex and evolving data with a focus on making predictions that are faithful, causal, and robust. Much of our work centers on graph-structured, text, and timeseries data, where we design models that capture how relationships and events change over time. We are especially motivated by high-stakes applications in healthcare and social informatics, where understanding why a prediction is made matters as much as accuracy.
+Our research is supported by the National Science Foundation, NIH AIM-AHEAD, Nvidia, and Stevens Institute of Technology.
+
 
 <br><br>
-          I received my Ph.D. from the Department of Computer Science of Virginia Tech under Dr. Naren Ramakrishnan. 
+          I received my Ph.D. from the Department of Computer Science of Virginia Tech under Dr. Naren Ramakrishnan, a Fellow of IEEE, AAAS, and ACM. 
 
           <br><br>
 
@@ -105,19 +175,43 @@ Hoboken, NJ, USA
 </div>
 </div>
          
-          <strong style="color:red">Openings</strong>: I am looking for PhD students. Review this <a href="docs/phd-ad.pdf">file</a> if you are interested in working with me. 
+          <strong style="color:red">Openings</strong>: I am looking for PhD students in CS. Review this <a href="docs/phd-ad.pdf">file</a> if you are interested in working with me. 
 
           <h2 id="research-interest">Research Interests</h2>
 
           <ul>
-            <li>Machine Learning and Deep Learning</li>
+            <li>Foundations of AI and Machine Learning</li>
             <li>Data Science</li>
-            <li>Socially Responsible AI</li>
+            <li>Use-Inspired AI</li>
           </ul>
 
           <h2 id="news">News</h2>
           <div style="height:210px;line-height:1.428571429em;overflow:auto;padding:5px;">
          <table>
+          <tr ALIGH=LEFT>
+              <td VALIGN=TOP WIDTH=180px ALIGN=left>
+                04.2026&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                </td>
+              <td VALIGN=TOP ALIGN=LEFT>
+          Congratulations to Sandy Xiaoxue Han on successfully defending her PhD thesis!
+              </td>
+            </tr> 
+               <tr ALIGH=LEFT>
+              <td VALIGN=TOP WIDTH=180px ALIGN=left>
+                04.2026&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                </td>
+              <td VALIGN=TOP ALIGN=LEFT>
+          Paper on Conceptual Hierarchies within LLMs is accepted by ACL Findings 2026.
+              </td>
+            </tr> 
+           <tr ALIGH=LEFT>
+              <td VALIGN=TOP WIDTH=180px ALIGN=left>
+                01.2026&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                </td>
+              <td VALIGN=TOP ALIGN=LEFT>
+            I am invited to join the <a href="https://njaihub.org/faculty-futures-ai-studio">Faculty Futures AI studio</a> at <a href="https://njaihub.org/"> NJ AI Hub</a>. 
+              </td>
+            </tr>  
             <tr ALIGH=LEFT>
               <td VALIGN=TOP WIDTH=180px ALIGN=left>
                 09.2025&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -705,7 +799,7 @@ Hoboken, NJ, USA
       <li>Student Travel Award Co-chair: KDD 2022</li>
   </ul>
 </li>
-  <li>Area Chair: KDD 2024, KDD 2025</li>
+  <li>Area Chair: KDD 2024 - 2026</li>
   <li>Session Chair 
     <ul> 
       <li>SDM 2021</li> 
@@ -714,19 +808,20 @@ Hoboken, NJ, USA
 </li>
   <li>Senior PC: IJCAI 2021</li>
   <li>Program Committee: KDD 2019-2023</li>
-  <li>Program Committee: AAAI 2020-2024</li>
-  <li>Program Committee: ICLR 2021, 2023, 2024</li>
-  <li>Program Committee: ICML 2020-2023</li>
-  <li>Program Committee: NeurIPS 2021-2023</li>
-  <li>Program Committee: IJCAI 2021-2023</li>
+  <li>Program Committee: AAAI 2020-2026</li>
+  <li>Program Committee: ICLR 2021, 2023 - 2026</li>
+  <li>Program Committee: ICML 2020-2026</li>
+  <li>Program Committee: NeurIPS 2021-2026</li>
+  <li>Program Committee: IJCAI 2021-2026</li>
   <li>Program Committee: CVPR 2023</li>
   <li>Program Committee: The Web Conf (previously WWW) 2021-2023</li>
   <li>Program Committee: CIKM short paper track 2022</li>
   <li>Program Committee: PAKDD 2020-2022</li>
-  <li>Program Committee: SDM 2019-2024</li>
-  <li>Program Committee: IEEE BigData 2020-2023</li>
+  <li>Program Committee: SDM 2019-2026</li>
+  <li>Program Committee: IEEE BigData 2020-2026</li>
   <li>Program Committee: ICMLA 2019</li>
   <li>Program Committee: ASONAM 2018-2022</li>
+  <li>Reviewer: Transactions on Machine Learning Research (TMLR)</li>
   <li>Reviewer: Sensors, published by MDPI</li>
   <li>Reviewer: Nature Communications</li>
   <li>Reviewer: Pattern Recognition</li>
@@ -742,6 +837,7 @@ Hoboken, NJ, USA
 </div>
 
 <br>
+
  <h2 id="contact">Contact</h2>
 <div class="row">
   <div class="column">
