@@ -8,19 +8,18 @@
 <!--     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-    <meta name="keywords" content="blog, accent, , Yue Ning, jekyll">
-    <meta name="author" content="">
+    <meta name="keywords" content="Yue Ning, Stevens Institute of Technology, machine learning, AI, PhD positions">
+    <meta name="author" content="Yue Ning">
     
     
     
-    <meta name="description" content="">
+    <meta name="description" content="Research projects, grants, and tutorials from Yue Ning's group at Stevens: LLM reasoning, causal and interpretable ML, graph learning, clinical AI, and AI for science.">
     <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
-    <link rel="alternate" type="application/rss+xml" title="Yue Ning RSS" href="/feed.xml" />
     <link rel="stylesheet" href="./css/main.css">
     
     
     <!-- Facebook Open Graph -->
-    <meta name="og:description" content="">
+    <meta name="og:description" content="Research projects, grants, and tutorials from Yue Ning's group at Stevens: LLM reasoning, causal and interpretable ML, graph learning, clinical AI, and AI for science.">
     <meta name="og:title" content="Yue Ning">
     <meta name="og:url" content="./research.html">
     <meta name="og:type" content="article">
@@ -29,7 +28,7 @@
     <!-- Twitter -->
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Yue Ning">
-    <meta name="twitter:description" content="">
+    <meta name="twitter:description" content="Research projects, grants, and tutorials from Yue Ning's group at Stevens: LLM reasoning, causal and interpretable ML, graph learning, clinical AI, and AI for science.">
     <meta name="twitter:url" content="./research.html">
     
         <meta name="twitter:image" content="">
@@ -65,6 +64,8 @@
 <ul style="margin-left: 30px">
   <li>Foundations of AI
     <ul>
+     <li>LLM Reasoning and Agentic AI</li>
+     <li>Causal Inference and Causal Discovery</li>
      <li>Graph Neural Networks</li>
       <li>Multi-Task Learning & Transfer Learning</li>
        <li>Knowledge-guided Learning</li>
@@ -81,6 +82,7 @@
     <ul>
       <li>AI for Healthcare</li>
       <li>Computational Social Science</li>
+      <li>AI for Science: Hydrology and Macroeconomic Forecasting</li>
       <li>Socially Responsible AI</li>
       
     </ul>
@@ -92,11 +94,21 @@
 <table >
     <tr ALIGH=LEFT style="background-color: #ffffff;">
               <td VALIGN=TOP WIDTH=180px ALIGN=center>
+                <a href="https://aclanthology.org/2025.findings-emnlp.1271/"><img src="img/Emnlp25-iikea.svg" style="width:80%" alt="II-KEA: interpretable and interactable agentic causal discovery vs. black-box deep learning (EMNLP 2025 Findings)"></a> 
+                </td>
+              <td VALIGN=CENTER ALIGN=LEFT>
+          <strong>LLM Reasoning, Agentic AI, and Causal Discovery</strong><br>
+          <p>We study how large language models reason and how to make that reasoning faithful and useful in high-stakes settings. This includes knowledge-enhanced agentic causal discovery for interpretable and interactable predictive healthcare <font size=2>[<a href="https://aclanthology.org/2025.findings-emnlp.1271/">EMNLP 25</a>]</font>, intermediate-variable reasoning (EMNLP 26), temporal reasoning over clinical narratives (SDM 26), LLMs for socio-political event interpolation and extrapolation (ECML-PKDD 26), and probing the conceptual hierarchies represented inside LLMs (ACL Findings 26).</p>
+              </td>
+            </tr>
+            <tr><td><br></td><td></td></tr>
+    <tr ALIGH=LEFT style="background-color: #ffffff;">
+              <td VALIGN=TOP WIDTH=180px ALIGN=center>
                 <img src="img/gnn.svg" style="width:80%"> 
                 </td>
               <td VALIGN=CENTER ALIGN=LEFT>
-          <a href=""><strong>Deep Graph Learning</strong></a><br>
-          <p>We design new graph neural networks for dynamic and heterogeneous graph data <font size=2>[<a href="docs/KDD19-dengA.pdf">KDD 19</a>, <a href="docs/KDD20-glean.pdf">KDD 20</a>]</font>; We also work on continual graph learning when tasks/data distributions change over time; We focus on novel solutions for knowledge graph reasoning, graph fusion, and temporal graph predictions. We study causality enhanced machine learning to improve interpretability <font size=2>[<a href="docs/ICDM22-HGC.pdf">ICDM 22</a>, <a href="docs/KDD22_CAPE.pdf">KDD 22</a>]</font>.</p>
+          <strong>Deep Graph Learning</strong><br>
+          <p>We design new graph neural networks for dynamic and heterogeneous graph data <font size=2>[<a href="docs/KDD19-dengA.pdf">KDD 19</a>, <a href="docs/KDD20-glean.pdf">KDD 20</a>]</font>; We also work on continual graph learning when tasks/data distributions change over time; We focus on novel solutions for knowledge graph reasoning, graph fusion, and temporal graph predictions. We study causality enhanced machine learning to improve interpretability <font size=2>[<a href="docs/ICDM22-HGC.pdf">ICDM 22</a>, <a href="docs/KDD22_CAPE.pdf">KDD 22</a>]</font>, continual graph learning <font size=2>[<a href="docs/NeurIPS-2024-TACO.pdf">NeurIPS 24</a>]</font>, graph out-of-distribution generalization (AISTATS 25), and graph unlearning <font size=2>[<a href="docs/kdd23-ceu.pdf">KDD 23</a>]</font>.</p>
             <!--  <ul><li> Graph neural networks for dynamic graph data</li>
 <li>Continual graph learning frameworks</li>
 <li>Knowledge graph reasoning, graph fusion, and temporal graph predictions</li></ul> -->
@@ -109,8 +121,8 @@
                 <img src="img/transfer.svg" style="width:80%"> 
                 </td>
               <td VALIGN=CENTER ALIGN=LEFT>
-             <a href=""><strong>Transfer Learning, Multitask Learning, and Federated Learning</strong></a> <br>
-             <p>We design new transfer learning and multitask learning methods for domain adaptation and bias-mitigation <font size=2>[<a href="docs/ICWSM20_ameya.pdf">ICWSM 20</a>]</font>. We also develop multitask learning for imbalanced data and spatiotemporal prediction problems <font size=2>[<a href="docs/sdm18-staple.pdf">SDM 18</a>]</font>. We investigate federated learning frameworks for asynchronous settings <font size=2>[<a href="docs/BigData2020_ASO_Fed.pdf">BigData 20</a>]</font> and heterogeneous data.</p>
+             <strong>Domain Adaptation, Transfer Learning, and AI for Science</strong> <br>
+             <p>We design new transfer learning and multitask learning methods for domain adaptation and bias-mitigation <font size=2>[<a href="docs/ICWSM20_ameya.pdf">ICWSM 20</a>]</font>. We also develop multitask learning for imbalanced data and spatiotemporal prediction problems <font size=2>[<a href="docs/sdm18-staple.pdf">SDM 18</a>]</font>. We investigate federated learning frameworks for asynchronous settings <font size=2>[<a href="docs/BigData2020_ASO_Fed.pdf">BigData 20</a>]</font> and heterogeneous data. We also apply these ideas to science and economics, including cross-reservoir inflow prediction <font size=2>[<a href="https://arxiv.org/abs/2511.07649">ICDM-DMESS 25</a>, <a href="https://arxiv.org/abs/2512.03300">AAAI-AI4ES 26</a>]</font> and inflation forecasting with dynamic feature spaces (ICDM 25).</p>
                <!-- ul>
                 <li> Domain adaptation frameworks</li>
                 <li> Bias-mitigation methods</li>
@@ -123,8 +135,8 @@
                 <img src="img/health.svg" style="width:80%"> 
                 </td>
               <td VALIGN=CENTER ALIGN=LEFT>
-            <a href=""><strong>Machine Learning for Healthcare</strong></a><br>
-            <p>We utilize health data to develop new machine learning algorithms for personalized care <font size=2>[<a href="docs/AAAI2022_chet.pdf">AAAI 22</a>]</font> and epidemic forecasting <font size=2>[<a href="docs/CIKM20-colagnn.pdf">CIKM 20</a>]</font>. We design new domain knowledge guided deep learning models <font size=2>[<a href="docs/IJCAI21_CGL.pdf">IJCAI 21</a>]</font> to discover patient-disease relations, hidden disease patterns, and disease topographies. We focus on tasks such as future risk assessment, ICD coding, medical representation learning, and information retrieval.</p>
+            <strong>Machine Learning for Healthcare</strong><br>
+            <p>Working with clinical collaborators at Yale School of Medicine, UMass Chan Medical School, and Hackensack Meridian Health, we develop accurate and transparent models for clinical prediction and diagnostic reasoning, including concept-grounded domain adaptation <font size=2>[<a href="https://icml.cc/virtual/2026/poster/64700">ICML 26</a>]</font>, clinical domain generalization (CIKM 26), lab-informed pretraining for diagnosis <font size=2>[<a href="https://ieeexplore.ieee.org/abstract/document/11421300">J-BHI 26</a>]</font>, and contrastive ICD coding <font size=2>[<a href="docs/NeurIPS23_ICD.pdf">NeurIPS 23</a>]</font>. Earlier, we utilized health data to develop new machine learning algorithms for personalized care <font size=2>[<a href="docs/AAAI2022_chet.pdf">AAAI 22</a>]</font> and epidemic forecasting <font size=2>[<a href="docs/CIKM20-colagnn.pdf">CIKM 20</a>]</font>. We design new domain knowledge guided deep learning models <font size=2>[<a href="docs/IJCAI21_CGL.pdf">IJCAI 21</a>]</font> to discover patient-disease relations, hidden disease patterns, and disease topographies. We focus on tasks such as future risk assessment, ICD coding, medical representation learning, and information retrieval.</p>
                <!--  <ul>
                 <li> Discover patient-disease relations, hidden disease patterns, and disease knowledge</li>
                 <li> Temporal learning methods for personalized health risk evaluation</li>
@@ -139,7 +151,7 @@
                 <img src="img/social.svg" style="width:80%"> 
                 </td>
               <td VALIGN=CENTER ALIGN=LEFT>
-             <a href=""><strong>Machine Learning for Social Science</strong></a><br>
+             <strong>Machine Learning for Social Science</strong><br>
             <p>We design deep neural networks for societal event predictions including crime, political events, and pandemics. We study new methods for integrating multimodal data <font size=2>[<a href="docs/CIKM21_cmf.pdf">CIKM 21</a>]</font> and causal inference <font size=2>[<a href="docs/ICDM22-HGC.pdf">ICDM 22</a>, <a href="docs/KDD22_CAPE.pdf">KDD 22</a>]</font> in human event analysis.</p>
                      <!-- <ul>
                 <li> Desing new deep interpretable models for event forecasting</li>
@@ -154,7 +166,7 @@
                 <img src="img/fairness.svg" style="width:80%"> 
                 </td>
               <td VALIGN=CENTER ALIGN=LEFT>
-             <a href=""><strong>Socially Responsible AI</strong></a><br>
+             <strong>Socially Responsible AI</strong><br>
              <p>We are interested in developing efficient and effective detection approaches for socially responsible AI which includes knowledge-based fake news detection <font size=2>[<a href="docs/pakdd2021.pdf">PAKDD 21</a>]</font>, fairness in finance <font size=2>[<a href="docs/Fairness_SocialInfo.pdf">TheWebConf 20</a>]</font>, medicine <font size=2>[<a href="https://www.sciencedirect.com/science/article/pii/S2352396422004327">eBioMedicine</a>]</font>, and social networks <font size=2>[<a href="docs/ICWSM22-fairlp.pdf">ICWSM 22a</a>]</font>, and toxic/hate speech detection<font size=2>[<a href="docs/ICWSM20_ameya.pdf">ICWSM 20</a>, <a href="docs/ICWSM22-sric.pdf">ICWSM 22b</a>]</font>.</p>
                   <!--   <ul>
                         <li>Knowledge-based fake news detection</li>
@@ -171,20 +183,6 @@
 
 <a href=""><h3>Representation Learning in Health Care</h3></a>
 -->
-<hr>
-
-<h2 id="research-projects">Previous Projects</h2>
-  <ul style="margin-left: 30px">
-<li><a href="events.html"><strong>Societal Event Detection and Forecasting in Large-scale Media</strong></a>
-</li>
-<li>
-<a href="content-media.html"><strong>Content and Interaction Analysis of Online Media</strong></a>
-</li>
-<li>
-<a href="recommendation.html"><strong>Personalization and User Modeling</strong></a>
-</li>
-</ul>
-
 
  <hr>
     <h2 id="tutorial">Tutorials</h2>
@@ -202,9 +200,14 @@
 </li>
 <li><a href="project-2047843.html"><strong>NSF CAREER: Towards Deep Interpretable Predictions for Multi-Scope Temporal Events</strong></a>
 </li>
-<li><a href=""><strong>NSF EAGER: A Domain-Informed Generative Framework for Joint Learning of Public Medical Knowledge and Individual Health Records</strong></a>
+<li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2437621"><strong>NSF EAGER: A Domain-Informed Generative Framework for Joint Learning of Public Medical Knowledge and Individual Health Records</strong></a>
 </li>
+<li><strong>NSF NAIRR Pilot</strong>: compute award supporting research on domain-informed foundation models</li>
+<li><strong>NIH AIM-AHEAD Research Fellowship</strong>: AI methods to address and mitigate health outcome disparities</li>
 </ul>
+ <hr>
+   <h2 id="collaborate">Collaborate With Us</h2>
+   <p>Many of our projects start from a question a clinician or domain scientist brings to us. Current and recent collaborators include Yale School of Medicine, UMass Chan Medical School, Hackensack Meridian Health, U.S. national laboratories, the NJ AI Hub, and colleagues in hydrology, finance, and the social sciences. If you work with clinical records, evolving networks, text, or time series and need predictions you can trust and explain, please <a href="mailto:yue.ning@stevens.edu?subject=[Collaboration]">email me</a>. Code for many of our papers is available on <a href="https://github.com/yuening-lab">GitHub</a>.</p>
  <hr>
    <h2 id="sponsors">Sponsors</h2>
    <div class="row">
